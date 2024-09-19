@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "6UJqhK+7V4XH4aSME1Yv348hIzbsu9jOrveZ+ydn6Jw=",
+  "Source": "Contacts Management App Api",
+  "BasePath": "_content/Contacts Management App Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Contacts Management App Api\\wwwroot",
+      "Source": "Contacts Management App Api",
+      "ContentRoot": "C:\\Users\\sharm\\source\\repos\\Contacts Management App Api\\wwwroot\\",
+      "BasePath": "_content/Contacts Management App Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sharm\\source\\repos\\Contacts Management App Api\\wwwroot\\users.json",
+      "SourceId": "Contacts Management App Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sharm\\source\\repos\\Contacts Management App Api\\wwwroot\\",
+      "BasePath": "_content/Contacts Management App Api",
+      "RelativePath": "users.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.json"
+    }
+  ]
+}

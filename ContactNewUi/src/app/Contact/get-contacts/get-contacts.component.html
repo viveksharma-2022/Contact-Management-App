@@ -1,0 +1,113 @@
+
+<div class="container-fluid"> 
+    <div class="text-start" style="margin-top: 50px; margin-bottom: 15px;">
+        <button class="btn btn-success" (click)="openModal()">New</button>
+      </div>
+      <div class="col-md-6 searchstyle">
+        <h2><b>Search Contacts</b></h2>
+      </div>
+      <div class="form-group col-md-6 padl0" style="margin-bottom: 20px;">
+        <input type="text" class="form-control "  placeholder="Search Contacts" [(ngModel)]="searchedKeyword">
+      </div>
+      @if (contactlist && contactlist.length>0) 
+      {
+        <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let contacts of contactlist | paginate:{itemsPerPage:5,currentPage:pages} | filter:searchedKeyword">
+                <td>{{contacts.id}}</td>
+                <td>{{contacts.firstName}}</td>
+                <td>{{contacts.lastName}}</td>
+                <td>{{contacts.eMail}}</td>
+                <td>
+                  <button class="btn btn-primary" (click)="onEdit(contacts)">Edit</button>
+                  
+                </td>
+                <td><button class="btn btn-danger" (click)="onDelete(contacts.id)">Delete</button></td>
+              </tr>
+            </tbody>
+            <pagination-controls (pageChange)="pages = $event"></pagination-controls>
+        
+          </table>
+      }@else {
+        <h5>No Contact Found!</h5>
+      }
+      
+</div>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal" #myModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header bg-info">
+            @if (contactForm.value.id!=0) 
+            {
+                <h4 class="modal-title">Edit Contact</h4>
+            }@else 
+            {
+                <h4 class="modal-title">Add Contact</h4>   
+            }
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeModal()"></button>
+        </div>
+
+
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-10">
+                <input type="text" formControlName="firstName" name="firstName" class="form-control" placeholder="Enter Your FirstName" required>
+                <span class="text-danger" *ngIf="(contactdata['firstName'].touched || submitted) && contactdata['firstName'].errors?.['required']">
+                  Firstname is required!
+               </span>
+               
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-10">
+                <input type="text" formControlName="lastName" name="lastName" class="form-control" placeholder="Enter Your LastName" required>
+                <span class="text-danger" *ngIf="(contactdata['lastName'].touched || submitted) && contactdata['lastName'].errors?.['required']">
+                  LastName is required!
+               </span>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-10">
+                <input type="text" formControlName="eMail" name="eMail" class="form-control" placeholder="Enter Your Email" required>
+                <span class="text-danger" *ngIf="(contactdata['eMail'].touched || submitted) && contactdata['eMail'].errors?.['required']">
+                  Email is required
+               </span>
+               <span class="text-danger" *ngIf="contactdata['eMail'].errors?.['pattern']">
+                  Enter a valid email address
+               </span> 
+            </div>
+          </div>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            @if (contactForm.value.id==0) 
+            {
+                <button type="submit" [disabled]="this.contactForm.invalid" class="btn btn-primary" data-bs-dismiss="modal" >Save</button>
+            }@else {
+                <button type="submit" [disabled]="this.contactForm.invalid" class="btn btn-primary" data-bs-dismiss="modal" >Update</button>
+            }
+        
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeModal()">Close</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>

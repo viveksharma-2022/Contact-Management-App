@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sharm\\source\\repos\\Contacts Management App Api\\wwwroot\\users.json",
+      "PackagePath": "staticwebassets\\users.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Contacts Management App Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Contacts Management App Api.props",
+      "PackagePath": "build\\Contacts Management App Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Contacts Management App Api.props",
+      "PackagePath": "buildMultiTargeting\\Contacts Management App Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Contacts Management App Api.props",
+      "PackagePath": "buildTransitive\\Contacts Management App Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

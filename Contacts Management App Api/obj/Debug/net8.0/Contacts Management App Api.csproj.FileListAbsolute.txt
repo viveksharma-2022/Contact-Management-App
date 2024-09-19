@@ -1,0 +1,36 @@
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\appsettings.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\users.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.exe
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.deps.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.runtimeconfig.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.pdb
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.csproj.AssemblyReference.cache
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.AssemblyInfoInputs.cache
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.AssemblyInfo.cs
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.csproj.CoreCompileInputs.cache
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets\msbuild.Contacts Management App Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Contacts Management App Api.props
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Contacts Management App Api.props
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Contacts Management App Api.props
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\scopedcss\bundle\Contacts Management App Api.styles.css
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts.C21DCFC6.Up2Date
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\refint\Contacts Management App Api.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.pdb
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\Contacts Management App Api.genruntimeconfig.cache
+C:\Users\sharm\source\repos\Contacts Management App Api\obj\Debug\net8.0\ref\Contacts Management App Api.dll
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\wwwroot\users.json
+C:\Users\sharm\source\repos\Contacts Management App Api\bin\Debug\net8.0\Contacts Management App Api.staticwebassets.runtime.json
